@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio website for Susan Malen featuring experience, projects, skills, testimonials, and contact details."
+    />
+    <meta name="theme-color" content="#111827" />
+    <title>Susan Malen | Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="#top">Susan Malen</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color theme">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container section-grid">
+        <article class="hero-copy reveal">
+          <p class="eyebrow">Creative strategist • Product-minded professional</p>
+          <h1>Building polished digital experiences with clarity, empathy, and impact.</h1>
+          <p class="lede">
+            I am Susan Malen, a multidisciplinary professional focused on launching memorable brands,
+            clean interfaces, and measurable business growth for ambitious teams.
+          </p>
+          <div class="button-row">
+            <a class="btn btn-primary" href="assets/susan-cv.txt" download>Download CV</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            <a class="btn btn-ghost" href="#projects">View Projects</a>
+          </div>
+          <ul class="mini-stats">
+            <li><strong>8+</strong><span>Years of experience</span></li>
+            <li><strong>25</strong><span>Launches delivered</span></li>
+            <li><strong>95%</strong><span>Client satisfaction</span></li>
+          </ul>
+        </article>
+
+        <aside class="hero-card reveal">
+          <div class="avatar-card">
+            <div class="avatar-badge">Available for select projects</div>
+            <div class="avatar-placeholder">SM</div>
+            <h2>Susan Malen</h2>
+            <p>Senior Brand & Product Professional</p>
+            <div class="chip-row">
+              <span>UI/UX</span><span>Strategy</span><span>Growth</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Purpose-driven work with a premium, human-centered approach.</h2>
+        </div>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Professional biography</h3>
+            <p>
+              I blend strategic thinking, modern design, and cross-functional execution to help organizations
+              create a stronger digital presence. My work emphasizes clarity, accessibility, and confidence.
+            </p>
+            <p>
+              From leading client-facing initiatives to refining brand systems, I bring calm structure and a
+              collaborative mindset to every project.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Career journey</h3>
+            <p>My journey has evolved from creative design and content strategy into product-focused leadership.
+              I thrive in spaces where customer insight, strong visuals, and business goals intersect.</p>
+            <p>My mission is to turn ideas into practical experiences that feel elegant, trusted, and memorable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Skills & Technologies</p>
+          <h2>Technical depth, professional polish, and adaptable expertise.</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="card">
+            <h3>Technical skills</h3>
+            <ul class="skill-list">
+              <li>HTML, CSS, JavaScript</li>
+              <li>React, Next.js, Figma</li>
+              <li>SEO, analytics, CMS workflows</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Professional skills</h3>
+            <ul class="skill-list">
+              <li>Strategic planning</li>
+              <li>Stakeholder communication</li>
+              <li>Creative leadership</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Skill indicators</h3>
+            <div class="meter"><label>UI/UX Design</label><span style="--value: 92%"></span></div>
+            <div class="meter"><label>Brand Strategy</label><span style="--value: 88%"></span></div>
+            <div class="meter"><label>Front-end Development</label><span style="--value: 84%"></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Professional milestones and impact across creative and digital roles.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-card card">
+            <span class="timeline-date">2022 — Present</span>
+            <h3>Senior Creative Strategist</h3>
+            <p>Led brand refreshes, digital campaign design, and stakeholder communication for fast-growing companies.</p>
+            <ul>
+              <li>Improved engagement through refined user journeys and messaging systems.</li>
+              <li>Delivered launch-ready assets across web, email, and social platforms.</li>
+            </ul>
+          </article>
+          <article class="timeline-card card">
+            <span class="timeline-date">2018 — 2022</span>
+            <h3>Product & Brand Designer</h3>
+            <p>Built polished visual systems and user interfaces for small businesses, startups, and cultural brands.</p>
+            <ul>
+              <li>Created reusable design systems and editorial templates.</li>
+              <li>Partnered with developers to ensure smooth implementation and performance.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Projects Portfolio</p>
+          <h2>Selected work that blends strategy, design, and measurable outcomes.</h2>
+        </div>
+        <div class="filter-row">
+          <button class="filter-chip active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="brand">Brand</button>
+          <button class="filter-chip" data-filter="web">Web</button>
+          <button class="filter-chip" data-filter="growth">Growth</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card card" data-category="brand">
+            <div class="project-thumb brand-thumb"></div>
+            <h3>Velvet Launch</h3>
+            <p>Identity refresh and campaign design for a boutique fashion launch.</p>
+            <p class="tag-row"><span>Figma</span><span>Brand</span><span>Strategy</span></p>
+            <div class="project-links"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+          </article>
+          <article class="project-card card" data-category="web">
+            <div class="project-thumb web-thumb"></div>
+            <h3>Northstar Studio</h3>
+            <p>Responsive portfolio site with clear messaging, SEO structure, and conversion-focused CTAs.</p>
+            <p class="tag-row"><span>HTML</span><span>CSS</span><span>Analytics</span></p>
+            <div class="project-links"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+          </article>
+          <article class="project-card card" data-category="growth">
+            <div class="project-thumb growth-thumb"></div>
+            <h3>Pulse Outreach</h3>
+            <p>Growth campaign system that improved client retention and newsletter signups.</p>
+            <p class="tag-row"><span>Growth</span><span>Content</span><span>CRM</span></p>
+            <div class="project-links"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="blog" class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Blog & Insights</p>
+          <h2>Thoughtful notes on design, decision-making, and digital growth.</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card blog-card">
+            <h3>Design systems that scale</h3>
+            <p>How to create documentation, reusable patterns, and calm visual language that teams can trust.</p>
+          </article>
+          <article class="card blog-card">
+            <h3>Turning strategy into portfolio impact</h3>
+            <p>Practical ideas for aligning user experience, business goals, and storytelling across touchpoints.</p>
+          </article>
+          <article class="card blog-card">
+            <h3>Accessibility as a growth asset</h3>
+            <p>Why inclusive design improves trust, usability, and long-term performance for every audience.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>Flexible support options for ambitious teams and individuals.</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card service-card"><h3>Brand Refresh</h3><p>Elevated identity, messaging, and visual systems.</p></article>
+          <article class="card service-card"><h3>Portfolio Design</h3><p>High-converting, elegant websites for professionals and agencies.</p></article>
+          <article class="card service-card"><h3>Consultation</h3><p>Strategic sessions for positioning, process, and digital growth.</p></article>
+        </div>
+      </section>
+
+      <section class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Feedback from clients, collaborators, and professional partners.</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card quote-card">“Susan brings calm structure, beautiful design, and clear execution to every detail.” — Client Partner</article>
+          <article class="card quote-card">“The result felt premium, modern, and deeply aligned with our audience.” — Marketing Director</article>
+          <article class="card quote-card">“A thoughtful collaborator who balances professionalism with creativity.” — Creative Lead</article>
+        </div>
+      </section>
+
+      <section id="contact" class="container reveal section-space">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s create something memorable, strategic, and impactful.</h2>
+        </div>
+        <div class="contact-grid">
+          <form class="card contact-form" id="contactForm" novalidate>
+            <label>Name<input type="text" id="name" required placeholder="Your name" /></label>
+            <label>Email<input type="email" id="email" required placeholder="you@example.com" /></label>
+            <label>Project Type<select id="projectType"><option>Strategy</option><option>Web Design</option><option>Brand Refresh</option><option>Consultation</option></select></label>
+            <label>Message<textarea id="message" required rows="5" placeholder="Tell me about your goals"></textarea></label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+          <aside class="card contact-details">
+            <h3>Connect</h3>
+            <p>Email: hello@susanmalen.dev</p>
+            <p>Phone: +254 700 000 000</p>
+            <p>Location: Nairobi, Kenya</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© 2026 Susan Malen. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#top">Top</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
